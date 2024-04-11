@@ -44,6 +44,7 @@ const Home = () => {
 
     return (
       <group ref={group}>
+        {/* <mesh position={[0, 0, 0]} dispose={null} rotation={[0, 0, 0]}> */}
         <mesh position={[-27, -14, -25]} dispose={null} rotation={[0, 0, 0]}>
           {/* <mesh position={[-33, -30, -25]} dispose={null}> */}
           <primitive object={mroot} />
